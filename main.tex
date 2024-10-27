@@ -12,10 +12,21 @@
 \setlength{\leftcolwidth}{0.3\textwidth}
 \setlength{\rightcolwidth}{0.65\textwidth}
 
+\newcommand{\myName}{Fei Gu}
+\newcommand{\myTitle}{Junior Software Developer}
+\newcommand{\targetCompanyName}{ Ephort } % 填写求职的公司名
+\newcommand{\expectingPosition}{ Full Stack Developer } % 填写期望的职位
+\newcommand{\email}{evensnachi1@gmail.com}
+\newcommand{\tel}{+45 52000668}
+\newcommand{\linkedin}{https://www.linkedin.com/in/fei-gu-cs}
+\newcommand{\github}{https://github.com/feix0033}
+
+
+
 %------------------------------------------------------------------
-\title{Hipster-CV}
-\author{\LaTeX{} Ninja}
-\date{March 2019}
+\title{My CV}
+\author{\LaTeX{} Fei Gu}
+\date{\today}
 
 \pagestyle{empty}
 \begin{document}
@@ -24,11 +35,77 @@
 \thispagestyle{empty}
 %-------------------------------------------------------------
 
-\section*{Start}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter
+
+\section*{Cover Letter}
+
+\header
+{\bg{headerfontbox}{headerfontboxfont}{\large \myTitle} }
+{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge \myName}}
+{\bg{headerfontbox}{headerfontboxfont}{\small \expectingPosition}}
+{myPhoto.jpg}
+{headerblue}
+{3.5cm}
+{2cm}
+
+\subsection*{}
+\vspace{2em}
+
+\subsubsection*{Dear Rune:}
+\paragraph{}
+The opportunity that I know about Ephort is from my manager, the person who has a connection with Ephort's senior developer, Peter Brinck. That led me to get to know Ephort and write this letter. I would like to apply for a position at Ephort.
+
+\paragraph{}
+From the content on Ephort's homepage, I can perceive that Ephort has a friendly and enjoyable company culture between the lines. And the passion for creating great products for customers. The name Kristian, who is the senior developer, is mentioned in a lot of customer quotes. Which is very impressive to me. I wish I could be part of the process and offer my dedication to reach the purpose (At least I can help with some Chinese customers since the Chinese are my mother tongue. :D And improve my Danish, of course. :D ).
+
+\paragraph{}
+I can see that Ephort always embraces new technology and devotes itself to improving and implementing the new tech with innovation. As presenters, organizers, and participants engage in tech meetups (Laravel EU) and hold development days(hackathons), all those events are interesting to me. I'm especially interested in backend development, same as Ephort's mentioned, even though my main working experience was in Front-end development.
+
+\paragraph{}
+In fact, I have both front-end and back-end development education and some development experience. 
+
+\paragraph{}
+My educational background at Business Academy Southwest provided me with a comprehensive understanding of software development principles, including web development, software design, engineering, and DevOps. I am a strong advocate for TDD and CI/CD, having implemented these practices extensively throughout my academic projects, utilizing tools like Jenkins and Docker. I am also passionate about modular design principles and clean code(especially the onion architecture and dependency injection), ensuring code is readable, reusable, and adaptable.
+I was trained to use Angular as the front-end firmware, and Java$\backslash$C\# as the backend development language, the dotNet firmware and Entity Firmware were the Backend firmware to be used during my entire education process. 
+
+\paragraph{}
+My time at Bifrostconnect provided hands-on experience, allowing me to work extensively with JavaScript, React, Golang, Gin, GORM, and PostgreSQL. My responsibilities bridged both front-end and back-end development, which fostered a well-rounded skill set. For instance, I was instrumental in developing and refining core features, actively contributing ideas and solutions alongside my team. I spearheaded the implementation of a comprehensive code style guide and established a robust unit testing environment for front-end development, significantly bolstering the codebase's quality and maintainability. 
+Additionally, I participated in the release process, drafting release strategies based on our branching strategy and the production/test environment setup. This experience solidified my understanding of the entire software development lifecycle and honed my skills, especially in version control with Git and collaborative development using GitHub. 
+
+\paragraph{}
+In my life, I believe that lift-circle learning and thinking is the way to keep a person vitality. And I do believe organizing, analyzing, optimizing are the ways to improve everything better. I'm looking at the technology out of my work scope in my free time, such as Vim, Vite, Latex, R, and so on. And I'm starting the Vue.js currently.
+
+\paragraph{}
+I'm married and live in Odense SØ. We don't have a child. But we have a cat. About the cat. That is another lovely story. Hopefully, I got a chance to share it with you. I had more than 8 years of experience in kitchen furniture before I stepped on the developer's ship. And I was a successful sushi chef. But I don't like the kitchen work, obviously.
+I am also trying to learn how to play a skateboard (I wish that I had time to practice). Loved to play basketball even though I'm not a taller guy. I did 5 km in the DHL race once this year (a real marathon competition between companies in Københaven)(this one is on feet) and I got 5th in my company (I was only 10 minutes late but we only had 5 people in the competition).  
+
+\paragraph{}
+Thank you for your time to read this letter. I hope we can have a face-to-face conversation if I get some attention from you. :D I'm expecting on `await fetch( myApply ).then( response => me )`. 
+
+
+{\hfill Sincerely,} \par
+{\hfill Fei Gu} \par
+{\hfill \today} \par
 
 
 
-\header{\bg{headerfontbox}{headerfontboxfont}{Captain} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Jack Sparrow}}{\bg{headerfontbox}{headerfontboxfont}{\large Pirate}}{jack.jpg}{headerblue}{3.5cm}{2cm}
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV
+
+
+\section*{CV}
+%%%%%%%%%%%%%%%%%%%%%%%% 抬头 %%%%%%%%%%%%%%%%%%%%%%%%
+\header
+{\bg{headerfontbox}{headerfontboxfont}{\myTitle}}
+{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge \myName}}
+{\bg{headerfontbox}{headerfontboxfont}{\small \expectingPosition}} %% TODO 这里根据期望的职位来填写, 包括记得修改下一页.
+{myPhoto.jpg}
+{headerblue}
+{3.5cm}
+{2cm}
 
 
 
@@ -42,7 +119,7 @@
 \columnratio{0.3}[0.65]
 \begin{paracol}{2}
 \hbadness5000
-%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
 
 \paracolbackgroundoptions
 
@@ -54,19 +131,20 @@
 \bgupper{cvgreen}{white}{Facts} \\
 \bg{cvgreen}{white}{personal} \\
 
+
 \begin{tabular}{ll}
-\faMale&Jack Sparrow \\
-\faGlobe& nationality: English  \\
-\faBirthdayCake&1690 \\
-\faMapMarker&on a ship \\
+\faMale&Fei Gu \\
+\faGlobe&Nationality: Chinese  \\ % 国籍对应的是国家人的名词，比如中国人，美国人，英国人等 https://www.sohu.com/a/281299070_310459
+\faBirthdayCake&1987 \\
+\faMapMarker&Odense SØ, Denmark \\
 \end{tabular}
 
 \bigskip
 
 \bg{cvgreen}{white}{Areas of specialization} \\
 
-Privateering ~•~ Bucaneering ~•~ Parler
-
+Software Developer ~•~ Software design\\
+DevOps ~•~ UI/UX ~•~ Test
 \bigskip
 
 \bgupper{cvgreen}{white}{Skills} \\
@@ -76,46 +154,56 @@ Privateering ~•~ Bucaneering ~•~ Parler
 
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{l | ll}
-\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{French} & C2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny}
+    \textbf{English} & fluency & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny} \\
+    \textbf{Danish} & ongoing & \pictofraction{\faCircle}{cvpurple}{1}{black!30}{3}{\tiny} \\
+    \textbf{Chinese} & ??? & {\phantom{x}\footnotesize mother tongue}
 \end{tabular}
 \end{minipage}
 
 \bigskip
 
-\bg{cvgreen}{white}{Interests}\\
 
-\bubblediagram{{\textbf{a pirate's} \\\textbf{life}},  the sea, pillaging, plundering, ships, stealing, hijacking, \textbf{The Black}\\ \textbf{Pearl}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 个人技能信息泡泡图
+\bg{cvgreen}{white}{Skill}\\
 
-\hspace{3cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
-\bigskip
+\bubblediagram{{\textbf{Full Stuck} \\\textbf{development}},{JS\\ HTML\\ CSS}, {React\\React Router\\Redux}, Anguler, {Tailwindcss\\Scss},{ webpack\\vite}, {Jest\\MSW\\Postman}, {ESLint\\Prettier},{C\#\\dotNet}, {PostgreSQL\\mySQL},{Golang\\Gin\\GROM}}
 
-\bg{cvgreen}{white}{IT \& programming} \\
+% 操作系统???
+% \hspace{1.5cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large}  \hspace{0.5em} \icon{\faApple}{labelcolour}{\Large} 
+% \bigskip
 
-\begin{minipage}[t]{0.3\textwidth}
-\begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{xslt} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
-\end{tabular}
+% \bg{cvgreen}{white}{IT \& programming} \\
+
+% \begin{minipage}[t]{0.3\textwidth}
+% \begin{tabular}{r @{\hspace{0.5em}}l}
+%      \bg{skilllabelcolour}{iconcolour}{js, html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
+%      \bg{skilllabelcolour}{iconcolour}{React} & \barrule{0.5}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{Anguler} & \barrule{0.5}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{Vue} & \barrule{0.25}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{Java, C\#} & \barrule{0.5}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{Golang} & \barrule{0.5}{0.5em}{cvpurple} \\
+% \end{tabular}
 
 
 %\dashrule{}{}
-\end{minipage}
+% \end{minipage}
 
 
 \bigskip
 
 \scalebox{0.8}{
-\iconcross{\Huge}{white}{cvred}{\color{black!30}\faBook}{\href{mailto:the.latex.ninja@gmail.com}{\faEnvelopeO}}{\faPhone}{\faCode}
+    \hspace{0.8cm} 
+    \iconcross{\Huge}{white}{cvred}
+    {\href{mailto:\email}{\faEnvelopeO}}
+    {\href{\tel}\faPhone}
+    {\href{\linkedin}\faLinkedin}
+    {\href{\github}\faGithub}
 }
 
 \phantom{turn the page}
 
-\phantom{turn the page}
+\phantom{turn the page} 
 }
 %-----------------------------------------------------------
 \switchcolumn
@@ -123,62 +211,72 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \small
 \section*{Short Resumé}
 
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.}{disney.png} \\
-    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?}{medal.jpeg} \\
-    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship.}{medal.jpeg}
+\begin{tabular}{r| p{0.3\textwidth} c}
+    \cvevent{05/2024--present}{\myTitle}{On-site}{BifrostConnect APS \color{cvred}}{Full-time employee}{bifrostconnect_logo.png} \\
+    \cvevent{10/2023--05/2024}{\myTitle}{On-site}{BifrostConnect APS \color{cvred}}{Part-time employee}{bifrostconnect_logo.png} \\
+    \cvevent{08/2023--10/2023}{Internship student}{On-site}{BifrostConnect APS \color{cvred}}{Internship student}{bifrostconnect_logo.png} \\
 \end{tabular}
 
 \vspace{4em}
 
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.65\textwidth} % 没有 hobbies
+% \begin{minipage}[t]{0.4\textwidth} % 有 hobbies
+
 \section*{Degrees}
+
 \begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
-    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
-    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+    \cvdegree{2021}{Computer Science}{AP Degree}{Erhvervsakademi Syd Vest \color{headerblue}}{
+        A further training course on 2.5 year with five semesters. 
+        The student will be qualified to work with general computer issues. 
+        And will therefore be able to develop, update and maintain software and IT systems. 
+        The core competencies of the education are software development and software design. 
+        These subjects are supported by the subject areas IT 
+    }{easv.png}
 \end{tabular}
+
 \end{minipage}\hfill
-\begin{minipage}[t]{0.16\textwidth}
-\section*{Hobbies}
-% usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
-\hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
-\hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
 
-\hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
-\hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
-\end{minipage}
 
-\vspace{4em}
+% \begin{minipage}[t]{0.16\textwidth}
+% \section*{Hobbies}
+% % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+% \hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
+% \hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
 
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Certificates \& Grants}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
-    1708 & Captain's Certificates \\
-    1710 & Travel grant \\
-    1715--1716 & Grant from the Pirate's Company
-\end{tabular}
-\section*{Strenghts}
-\cvtag{honest}
-\cvtag{thieving}
-\cvtag{handsome}
-\section*{References}
-\cvkeyword{Will Turner}{cvgreen}{iconcolour}
-\cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
+% \hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
+% \hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
+% \end{minipage}
 
-\cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Publications}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
-    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
-    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
-\end{tabular}
-\section*{Talks}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
-    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
-\end{tabular}
-\end{minipage}
+% \vspace{4em}
+
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Certificates \& Grants}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+%     1708 & Captain's Certificates \\
+%     1710 & Travel grant \\
+%     1715--1716 & Grant from the Pirate's Company
+% \end{tabular}
+% \section*{Strenghts}
+% \cvtag{honest}
+% \cvtag{thieving}
+% \cvtag{handsome}
+% \section*{References}
+% \cvkeyword{Will Turner}{cvgreen}{iconcolour}
+% \cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
+
+% \cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Publications}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+%     1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
+%     1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+% \end{tabular}
+% \section*{Talks}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+%     Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+% \end{tabular}
+% \end{minipage}
 
 
 
@@ -196,7 +294,7 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small Jack Sparrow \icon{\faEnvelopeO}{cvpurple}{} The Black Pearl \icon{\faMapMarker}{cvpurple}{} Tortuga \icon{\faPhone}{cvpurple}{} 0099/333 5647380 \newline\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
+{\small \myName \icon{\faEnvelopeO}{cvpurple}{} \email \icon{\faMapMarker}{cvpurple}{} Odense \icon{\faPhone}{cvpurple}{} \tel \newline\icon{\faLinkedin}{cvpurple}{} \protect\url{\linkedin} \icon{\faGithub}{cvpurple}{} \protect\url{\github}
 }
 \end{center}
 \end{minipage}

@@ -15,7 +15,7 @@ Please replace them with your own photos and logos if you use this template!
 	</tr>
 	<tr>
 		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/classic-hipstercvs.png" 
+			<img src="./previews/classic-hipstercvs.png" 
 				alt="HipsterCV Template Classic"
 				height="300"/>
 		</td>
@@ -28,7 +28,7 @@ Please replace them with your own photos and logos if you use this template!
 	</tr>
 	<tr>
 		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/pastels-hipstercv.png" 
+			<img src="./previews/pastels-hipstercv.png" 
 				alt="HipsterCV Template Pastels"
 				height="300" />
 		</td>
@@ -41,7 +41,7 @@ Please replace them with your own photos and logos if you use this template!
 	</tr>
 	<tr>
 		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/dark-hipster-cvs.png" 
+			<img src="./previews/dark-hipster-cvs.png" 
 				alt="HipsterCV Template Dark" 
 				height="300"/>
 		</td>
@@ -59,9 +59,9 @@ This is how to invoke the different colour themes
 ```
 
 ### See also the Simple Academic CV
-![Simple Academic CV](https://github.com/latex-ninja/hipster-cv/blob/master/previews/academic-cvs.png)
-![Simple Academic CV - Version 2](https://github.com/latex-ninja/simple-academic-resume/blob/master/simple-acad-cv.png)
-[Get it here.](https://github.com/latex-ninja/simple-academic-resume)
+![Simple Academic CV](./previews/academic-cvs.png)
+![Simple Academic CV - Version 2](./simple-acad-cv.png)
+[Get it here.](./simple-academic-resume)
 
 
 
