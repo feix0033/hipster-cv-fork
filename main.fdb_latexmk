@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730073085.82193 "/Users/fei/code/CV-project/hipster-cv-fork/main.tex" "main.pdf" "main" 1730073087.83654 0
-  "/Users/fei/code/CV-project/hipster-cv-fork/main.tex" 1730073085.62892 13207 8067b1c4e3f411f860691864c464cf24 ""
+["pdflatex"] 1730097894.28437 "/Users/fei/code/CV-project/hipster-cv-fork/main.tex" "main.pdf" "main" 1730097896.11313 0
+  "/Users/fei/code/CV-project/hipster-cv-fork/main.tex" 1730097893.6806 13261 f17fa040e222f5a85808ad0c3d751bc4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -223,9 +223,9 @@
   "easv.png" 1730072310.69654 3155 a9652406a0e380cf56dc5fa2ffebfc48 ""
   "hipstercv.cls" 1729265641.92046 9173 34342d651b48513e899aed8085d3f8ba ""
   "hipstercv.sty" 1729265641.92061 7698 93349ae157d5b80a39f27a8363784511 ""
-  "main.aux" 1730073087.65738 1004 e4e0af8e91a476f9512d50c1f08199c1 "pdflatex"
-  "main.out" 1730073086.92892 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1730073085.62892 13207 8067b1c4e3f411f860691864c464cf24 ""
+  "main.aux" 1730097895.93701 1004 e4e0af8e91a476f9512d50c1f08199c1 "pdflatex"
+  "main.out" 1730097895.20955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1730097893.6806 13261 f17fa040e222f5a85808ad0c3d751bc4 ""
   "myPhoto.jpg" 1729266525.82337 44811 dfecdbde8f1c41fd1370e88efdef534a ""
   (generated)
   "main.aux"
